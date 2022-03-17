@@ -52,4 +52,16 @@ void modify_system_time_version_1(char *new_time)
    int result_operation=execl("/bin/date","/bin/date", "-s", new_time,NULL);
 }
 
+int generate_random_number(int minimum, int maximum)
+{
+	static int random_number;
 
+	srand(time(NULL));
+	random_number=rand()%(maximum-minimum)+minimum;
+
+#if DEBUG_LEVEL  >=2
+	printf("Random number is \t ======> %i.\n",random_number);
+#endif
+
+	return random_number;
+}

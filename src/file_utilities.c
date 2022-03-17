@@ -124,3 +124,12 @@ bool write_header_in_file(char *file_with_complete_path, char *content_to_write)
 		return true;
 	}
 }
+
+char *pick_filename_by_random_id(char *prefix_filename,int random_number,char *file_extension)
+{
+	static char this_filename[20];
+
+	sprintf(this_filename,"%s%i%s",prefix_filename,random_number,file_extension);
+
+	return this_filename;
+}

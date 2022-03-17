@@ -25,5 +25,7 @@ bool delete_a_file(char *file_with_complete_path);
 char *add_complete_path_to_file_name(char *filename, char *file_extension,char *path_to_file);
 bool write_header_in_file(char *file_with_complete_path, char *content_to_write);
 
+char *pick_filename_by_random_id(char *prefix_filename,int random_number,char *file_extension);
+
 
 #endif /* FILE_UTILITIES_H_ */

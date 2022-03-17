@@ -10,9 +10,14 @@
 
 #include "udp_server.h"
 #include  "macro_definitions.h"
+#include "test_file.h"
 
 int main(int argc, char **argv)
 {
+	//test_read_from_file_to_string();
+	test_me();
+
+	/*
 	unsigned short port_number;
 
 	if(argc!=2)
@@ -24,6 +29,7 @@ int main(int argc, char **argv)
 	port_number=atoi(argv[1]);
 
 	communicate_server(port_number);
+	*/
 
 	return EXIT_SUCCESS;
 }
