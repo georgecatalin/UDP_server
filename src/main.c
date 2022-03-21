@@ -14,7 +14,6 @@
 
 int main(int argc, char **argv)
 {
-	//test_read_from_file_to_string();
 	test_me();
 
 	/*

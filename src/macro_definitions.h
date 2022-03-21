@@ -30,7 +30,7 @@
 #define DEBUG_LEVEL 2
 
 //path information
-#define SAMPLE_JSON_FILE "/home/georgeca/my_sandbox/kls_udp_server/src/json_files/json_1.txt"
-#define SAMPLE_JSON_FILES_PREFIX_WITH_PATH  "/home/georgeca/my_sandbox/kls_udp_server/src/json_files/json_"
+#define SAMPLE_JSON_FILE "/home/georgeca/my_sandbox/udp_server/src/json_files/json_1.txt"
+#define SAMPLE_JSON_FILES_PREFIX_WITH_PATH  "/home/georgeca/my_sandbox/udp_server/src/json_files/json_"
 
 #endif /* MACRO_DEFINITIONS_H_ */
